@@ -20,7 +20,19 @@ curl -Lo install.sh https://raw.githubusercontent.com/usercase/oh-my-zsh/master/
 sh install.sh --unattended
 ```
 
-### 3. Type zsh to start the shell :thumbsup:
+### 3. Change your shell to zsh 
+Type `zsh` to start the shell :thumbsup:
+
+Or set Zsh as your default shell : 
+
+`nano .profile`
+
+```
+if [[ -x /opt/bin/zsh ]]; then
+  export SHELL=/opt/bin/zsh
+  exec /opt/bin/zsh
+fi
+```
 
 ##  About the author's modifications of the installation script
 The script has slightly changed, I replaced the `command` command (yes !) with the `which`command.
