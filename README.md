@@ -20,7 +20,7 @@ curl -Lo install.sh https://raw.githubusercontent.com/usercase/oh-my-zsh/master/
 sh install.sh --unattended
 ```
 
-### 3. Change your shell to zsh 
+### 3. Change your default shell to Zsh 
 Type `zsh` to start the shell :thumbsup:
 
 Or set Zsh as your default shell : 
