@@ -43,7 +43,7 @@ RUNZSH=${RUNZSH:-yes}
 
 
 command_exists() {
-	command -v "$@" >/dev/null 2>&1
+	which "$@" >/dev/null 2>&1
 }
 
 error() {
