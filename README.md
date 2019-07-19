@@ -1,11 +1,11 @@
-# Install Oh My Zsh on Asus Router
+# Install Oh My Zsh on Asus Routers
 
-## Before the install 
+## Before 
 
 - Know how to use [ssh](https://www.unix.com/man-page/redhat/1/ssh/), [git](https://git-scm.com/), and [Entware](https://github.com/Entware/Entware)
 - [Entware](https://github.com/Entware/Entware) is installed on your Asus router
 
-## Install 
+## Install
 - Install these commands with Entware
 ```
 opkg install zsh
