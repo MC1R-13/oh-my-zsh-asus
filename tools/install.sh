@@ -53,7 +53,7 @@ KEEP_ZSHRC=${KEEP_ZSHRC:-no}
 
 
 command_exists() {
-	command -v "$@" >/dev/null 2>&1
+	which "$@" >/dev/null 2>&1
 }
 
 fmt_error() {
